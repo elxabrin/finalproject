@@ -67,6 +67,70 @@ body{
 	background:#ff8100;
 }
 
+/*content*/
+.main{
+	background:#f6f6f6;
+}
+.content-top{
+	padding:5% 0;
+}
+.content-top h3{
+	text-align:center;
+	font-size:2.5em;
+	color:#424147;
+	font-weight:600;
+	font-family: "Century Gothic";
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+.content-top h5{
+	text-align:center;
+	font-size:1.5em;
+	color: #424147;
+	font-weight:600;
+	font-family: "Century Gothic";
+	margin-top: 0px;
+	margin-bottom:60px;
+}
+.col-1{
+	display: block;
+	float:left;
+	margin:0% 0 0% 2%;
+	background: #ffea00;
+	cursor:pointer;
+}
+
+.span-1 {
+	width: 23%;
+}
+
+.desc{
+	background:#414146;
+	padding: 20px;
+}
+
+.shrink img{
+	padding: 0px 0;
+	transition: 1s ease;
+}
+	.shrink img:hover{
+	-webkit-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	transform: scale(0.8);
+	transition: 1s ease;
+	}
+.shrink p {
+	font-size: 1em;
+	text-align: center;
+}
+
+.desc p{
+	color: #FFF;
+	font-size: 0.95em;
+	line-height: 1.25em;
+	text-align: center;
+}
+
 .site-footer
 {
   background-color:#26272b;
@@ -236,3 +300,4 @@ body{
     font-weight:600
   }
 }
+
