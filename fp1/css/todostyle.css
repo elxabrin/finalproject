@@ -2,6 +2,31 @@
   * {
     margin: 0
   }
+
+  .navbar{
+    float:right;
+    padding-top: 6px;
+  }
+  
+  .navbar ul li {
+    display: inline-block;
+  }
+  
+  .navbar ul li a {
+    color: #000;
+    display: block;
+    padding: 40px 15px;
+    letter-spacing: 1px;
+    font-size: 1.3em;
+    font-family: 'Karla', sans-serif;
+    text-transform: uppercase;
+    margin: 13px 10px;
+  }
+  
+  .navbar li.active> a, .navbar li> a:hover {
+    color:#000;
+    background:#ff8100;
+  } 
   
   .container {
     display: flex;
