@@ -4,15 +4,78 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='http://fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <link rel="stylesheet" href="css/todostyle.css">
-    <title>Document</title>
+    <title>Todos</title>
 </head>
 <body>
-    <div id="myDIV" class="header">
-        <h2>My To Do List</h2>
-        <input type="text" id="myInput" placeholder="Title...">
-        <span onclick="newElement()" class="addBtn">Add</span>
-      </div>
-  <script src="js/todojs.js"></script>    
+        <div class="container">
+          <div class="app">
+            <h1>TO DO LIST</h1>
+            <form>
+              <input type="text" placeholder="Add a Todo...">
+              <button type="submit">+</button>
+            <closeform></closeform></form>
+            <ul></ul>
+          </div>
+        </div>
+
+        <script src="js/todojs.js"></script>   
+    
+      <br>
+
+       <!-- footer -->
+      <footer class="site-footer">
+        <div class="upperf">
+          <div class="gridupp">
+            <div class="col-sm-12 col-md-6">
+              <h6>About</h6>
+              <p class="text-justify">fill it same as about</p>
+            </div>
+  
+            <div class="col-xs-6 col-md-3">
+              <h6>Our Contact Info</h6>
+              <ul class="footer-links">
+                <li><a>Loc</a></li>
+                <li><a>Phone</a></li>
+                <li><a>Email</a></li>             
+              </ul>
+            </div>
+  
+            <div class="col-xs-6 col-md-3">
+              <h6>Quick Links</h6>
+              <ul class="footer-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Portofolio</a></li>
+                <li><a href=" ">Blog</a></li>
+                <li><a href=" ">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+             </ul>
+            </div>
+          </div>
+          <hr>
+        </div>
+
+        <div class="lowerf">
+          <div class="row">
+            <div class="col-md-8 col-sm-6 col-xs-12">
+              <p class="copyright-text">Copyright &copy; 2023 All Rights Reserved by Group 2 MSIB Hacktiv
+           <a href="https://www.hacktiv8.com/">PT. Hacktivate</a>.
+              </p>
+            </div>
+  <!-- logo sosmed -->
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <ul class="social-icons">
+                <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+              </ul>
+            </div>
+          </div>
+        </div>
+  </footer>
+
 </body>
 </html>
