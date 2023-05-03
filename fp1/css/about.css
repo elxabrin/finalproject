@@ -688,6 +688,30 @@ p {
   margin: 10px 0;
 }
 
+.footer-links {
+  padding-left: 0;
+  list-style: none
+}
+
+.footer-links li {
+  display: block
+}
+
+.footer-links a {
+  color: #ffffff
+}
+
+.footer-links a:active,
+.footer-links a:focus,
+.footer-links a:hover {
+  color: #ff8100;
+  text-decoration: none;
+}
+
+.footer-links.inline li {
+  display: inline-block
+}
+
 .right form .text {
   font-size: 1.0625rem;
   margin-bottom: 2px;
