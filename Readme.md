@@ -1,4 +1,4 @@
-Final Project 1 Group 2
+Final Project Group 2
 
 Elsa Dwi Sabrina        WDP-KS09-002, 
 Fawaz Asyar Mubarok     WDP-KS09-007, 
