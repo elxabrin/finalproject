@@ -1,6 +1,6 @@
-Final Project Group 2
+Final Project 1 Group 2
 
-Elsa Dwi Sabrina        WDP-KS09-002, 
-Fawaz Asyar Mubarok     WDP-KS09-007, 
-Indira Rahmawati        WDP-KS09-005, 
-Pramitha Dewi           WDP-KS09-008, 
+1. Elsa Dwi Sabrina        WDP-KS09-002
+2. Fawaz Asyar Mubarok     WDP-KS09-007
+3. Indira Rahmawati        WDP-KS09-005
+4. Pramitha Dewi           WDP-KS09-008 
