@@ -13,6 +13,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.css">
     <title>Home</title>
 </head>
@@ -37,8 +38,75 @@
     </div>
 
     <div>
-
     </div>
+
+  <br>
+
+    <!-- Main -->
+    
+    <section class="main swiper mySwiper">
+      <div class="wrapper swiper-wrapper">
+        <div class="slide swiper-slide">
+          <img src="img/img1.jpg" alt="" class="image" />
+          <div class="image-data">
+            <h2>
+               WE BELIEVE <br />
+               IN QUALITY DESIGN 
+            </h2>
+            <span class="text">Any Creative Project is Unique and should be provided with the appropriate quality.</span>
+            <br>
+            <a href="#" class="button">Order Now</a>
+          </div>
+        </div>
+        <div class="slide swiper-slide">
+          <img src="img/img9.jpg" alt="" class="image" />
+          <div class="image-data">
+            <h2>
+               WE BELIEVE <br />
+               IN QUALITY DESIGN 
+            </h2>
+            <span class="text">Any Creative Project is Unique and should be provided with the appropriate quality.</span>
+            <br>
+            <a href="#" class="button">Order Now</a>
+          </div>
+        </div>
+        <div class="slide swiper-slide">
+          <img src="img/img5.jpg" alt="" class="image" />
+          <div class="image-data">
+            <h2>
+               WE BELIEVE <br />
+               IN QUALITY DESIGN 
+            </h2>
+            <span class="text">Any Creative Project is Unique and should be provided with the appropriate quality.</span>
+            <br>
+            <a href="#" class="button">Order Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-button-next nav-btn"></div>
+      <div class="swiper-button-prev nav-btn"></div>
+      <div class="swiper-pagination"></div>
+    </section>
+
+    <!-- Swiper JS -->
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
 
     
     <!-- Content -->
